@@ -1,5 +1,3 @@
-require 'pry'
-
 def hex_to_decimal(hex)
   decimal = []
   hex.each_char do |hex|
@@ -16,5 +14,3 @@ def hex_to_decimal(hex)
   decimal.each { |conversion| final += (conversion * (16**incrementer)); incrementer -= 1 }
   final
 end
-
-print hex_to_decimal('1A2B3C')
