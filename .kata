@@ -1,0 +1,5 @@
+---
+name: Hex to Decimal
+difficulty: 3
+test_runner: rspec
+id: 6
